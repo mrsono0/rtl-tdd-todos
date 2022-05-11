@@ -1,4 +1,4 @@
-import react, { useCallback, useState } from "react";
+import { useCallback, useState } from "react";
 
 const TodoFrom = ({onInsert}) => {
     const [value, setValue] = useState("");
